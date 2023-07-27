@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="/src/styles/base/queries.css" />
 
     <title>Ignacio Marcovecchio</title>
+    
   </head>
   <body class="darkmode">
     <main>
@@ -165,7 +166,7 @@
         <h3 class="section-title">Other Projects</h3>
         <div href="#" class="other-projects-container">
           <div class="other-project-card">
-            <h3 class="other-project-title">To Do List</h3>
+            <h3 class="other-project-title">Search PJ Rick & Morty</h3>
             <ul class="other-technologies">
               <li class="other-technology">
                 Technologies: HTML, CSS, JavaScript
@@ -175,7 +176,7 @@
                 <a
                   class="line-effect"
                   target="_blank"
-                  href="https://todo-list-ali.netlify.app/"
+                  href="https://buscarpjrickandmorty.netlify.app/"
                   >link</a
                 >
               </li>
@@ -184,7 +185,7 @@
                 <a
                   class="line-effect"
                   target="_blank"
-                  href="https://github.com/alicalimli/todo-list"
+                  href="https://github.com/imarcovecchio22/BuscarPj-AJAX"
                   >link</a
                 >
               </li>
@@ -312,6 +313,17 @@
           </div>
         </div>
       </section>
+      <script>
+          function hide() {
+          var imgContainer = document.querySelector(".img-container");
+          imgContainer.style.display = "none";
+        }
+
+        // Llama a la función para animar la imagen después de que se haya cargado completamente el DOM
+        document.addEventListener("DOMContentLoaded", function () {
+          setTimeout(hide, 5000);
+        });
+      </script>
     </main>
   </body>
 </html>
