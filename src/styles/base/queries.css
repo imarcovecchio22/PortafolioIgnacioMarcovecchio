@@ -11,6 +11,10 @@
   
   }
  
+  iframe {
+    border: 1px solid #ccc; /* Añadir un borde al iframe para mejor apariencia */
+    margin-bottom: 20px;
+}
 
   .sub-section {
     padding: 3rem 15rem;
